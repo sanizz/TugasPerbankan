@@ -13,21 +13,21 @@
     }
 
     }
-    public class nasabah2 {
+    public class perbankanan {
     static BufferedReader input=new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] bank) throws Exception {
     tabungan t;
     t= new tabungan();
-    JOptionPane.showMessageDialog(null, "SELAMAT DATANG DI BANK VIRTUAL","WELCOME",
+    JOptionPane.showMessageDialog(null, "SELAMAT DATANG DI PROGRAM BANK SEDERHANA","WELCOME",
     JOptionPane.INFORMATION_MESSAGE);
     boolean status = false;
     int kembali=0;
     while (kembali!=1){
     System.out.println();
-    System.out.println("+===============================================+");
-   System.out.println("+=================BANK SEDERHANA================+");
-  System.out.println("+=======ICHSAN MUIS & FURIANSYAH DIPRAJA========+");
+    System.out.println("+====================================================================+");
+   System.out.println("+============================BANK SEDERHANA===========================+");
+  System.out.println("+======ICHSAN MUIZ (1127050069) & FURIANSYAH DIPRAJA (11270500)=======+");
 
     System.out.println();
     System.out.println("+____________________*MENU*_____________________+");
